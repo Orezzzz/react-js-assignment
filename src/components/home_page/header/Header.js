@@ -45,7 +45,7 @@ const Header = () => {
               </Link>
               ))}
             </div>
-            <button><a href="/">Sign out</a></button>
+            <button><Link to="/">Sign out</Link></button>
           </div>
         </div>
         </div>
