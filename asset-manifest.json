@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/react-js-assignment/static/css/main.c60984c7.css",
+    "main.js": "/react-js-assignment/static/js/main.80ed936a.js",
+    "static/media/google-map.jpg": "/react-js-assignment/static/media/google-map.8ffa047fb12fc7de3365.jpg",
+    "index.html": "/react-js-assignment/index.html",
+    "main.c60984c7.css.map": "/react-js-assignment/static/css/main.c60984c7.css.map",
+    "main.80ed936a.js.map": "/react-js-assignment/static/js/main.80ed936a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c60984c7.css",
+    "static/js/main.80ed936a.js"
+  ]
+}
