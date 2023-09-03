@@ -1,7 +1,7 @@
 import "./Header.css"
 import { useSelector, useDispatch } from "react-redux";
 import { Link } from "react-router-dom";
-import { selectedUser } from "../../../redux/actions/usersActions" 
+import { selectedUser, selectedSection } from "../../../redux/actions/usersActions" 
 import { useState } from 'react';
 
 const Header = () => {
@@ -25,6 +25,10 @@ const Header = () => {
             setIsprofileClicked("active")
         }
     }
+    
+    const clearSection = () => {
+      dispatch(selectedSection("Profile"))
+    }
 
     return (<div>
         <div className="Header">
@@ -45,7 +49,7 @@ const Header = () => {
               </Link>
               ))}
             </div>
-            <button><Link to="/">Sign out</Link></button>
+            <button onClick={()=>clearSection()}><Link to="/">Sign out</Link></button>
           </div>
         </div>
         </div>
