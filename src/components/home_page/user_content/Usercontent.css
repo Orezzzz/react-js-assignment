@@ -1,0 +1,135 @@
+.Usercontent{
+    width: 70%;
+    margin-left: 300px;
+    margin-top: 15px;
+    height: 480px; 
+    display: flex;
+    justify-content: space-between;
+}
+
+.Profile-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.personal-details, .company-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.address-details{
+    width: 100%;
+}
+
+.profile-picture{
+    width: 150px;
+    border-radius: 85px;
+}
+
+.personal-title,.company-title, .personal-info, .company-info{
+    font-size: 100%;
+    font-weight: 500;
+    color: rgb(100, 95, 95); 
+}
+
+.company-title{
+    text-align: center;
+    margin:0;
+    padding-top:7px;
+    opacity: 0.6;
+}
+
+.personal-info{
+    height: 30px;
+    display: flex;
+    align-items: center;
+    padding-top: 5px;
+}
+
+.company-info{
+    height: 35px;
+    display: flex;
+    align-items: center;
+    padding-top: 7px;
+}
+
+.personal-title{
+    opacity: 0.6;
+    width: 140px;
+    text-align: end;
+}
+.personal-value{
+    width:200px;
+    padding-left: 6px;
+}
+
+.border-bottom{
+    margin-top: 10px;
+    height: 1px;
+    opacity: 0.7;
+    width: 70%;
+    background-color:  rgb(192, 191, 191);
+}
+
+.border-right{
+    width: 2px;
+    background-color:  rgb(192, 191, 191);
+    opacity: 0.7;
+    margin-right: 60px;
+}
+
+.address-title{
+    opacity: 0.6;
+    font-size: 100%;
+    font-weight: 500;
+    color: rgb(100, 95, 95); 
+}
+
+.map-image{
+    width:400px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-bottom: 0;
+}
+
+.map-lat-long{
+    display: flex;
+    justify-content: end;
+}
+
+.map-value{
+    font-size: small;
+    font-weight: 500;
+    color: rgb(100, 95, 95); 
+    opacity: 1;
+}
+.map-lat, .map-long{
+    display:flex;
+    align-items: center;
+    
+}
+
+.map-value-title{
+    font-size: small;
+    font-weight: 500;
+    color: rgb(100, 95, 95); 
+    opacity: 0.6;
+    padding-left: 5px;
+}
+
+.coming-soon-text{
+    width:80%;
+    text-align: center;
+    height:200px;
+    font-size: 450%;
+    font-weight: bold;
+    margin-left:300px;
+    margin-top: 130px;
+    color: rgb(100, 95, 95); 
+    opacity: 0.1;
+}
